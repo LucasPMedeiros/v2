@@ -19,11 +19,9 @@
 		Nome: <form:input path="Nome"/>
 		<form:errors path="Nome" cssClass="error"/>
 		<br>
-		
-		
+				
 		Genero: <form:input path="Genero"/>
 				<form:errors path="Genero" cssClass="error"/>
-		
 		<br>
 		
 		Idade: 
@@ -31,14 +29,11 @@
 		<form:errors path="Idade" cssClass="error"/>
 		<br>
 			
-			
 		<form:select path="servico">
 			<form:options items="${pessoa.Servico}" />
 		</form:select>
 		
 		<br><br>
-		
-		
 						
 		<input type="submit" value="Submit"/>
 		
